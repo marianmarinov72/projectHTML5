@@ -1,0 +1,404 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
+*{
+    word-wrap: break-word;
+}
+
+body, section, header, footer{
+    margin: 0;
+}
+
+.site-header{
+    display: block;
+    padding-top: 15px;
+    background: rgba(210,210,210,.9);
+    background-size: cover;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.site-header .language{
+    display: inline-block;
+    background: rgba(199,157,99,.7);
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+
+.site-header .language a:nth-child(2n){
+    margin: 2px;
+    display: inline-block;
+    color: white;
+    background: #161616;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px white;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    font-size: 0.6em;
+    width: 85px;
+    height: 20px;
+}
+
+.site-header .language a{
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-header .language a:hover{
+    color: orange;
+    background: black;
+}
+
+.site-header .top-navigation{
+    display: block;
+    padding: 10px;
+    /* float: left; */
+    text-align: center;
+    /* max-width: 1300px; */
+    margin: 0 auto;
+}
+
+.site-header article{
+    display: inline-block;
+    width: 310px;
+    margin: 10px;
+    vertical-align: top;
+    /* float: left; */
+}
+.site-header article:first-child{float:left}
+.site-header article:last-child{float:right}
+
+.site-header .top-navigation article .title{
+    font-size: 2.5em;
+    color: dimgrey;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px black;
+}
+
+.site-header .top-navigation article a> span{
+    color: orangered;
+    text-decoration: none;
+}
+.site-header .top-navigation article p{
+    font-size: 0.7em;
+    text-shadow: 0px 0px 1px orangered;
+}
+
+.site-header .top-navigation article ul{
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+    display: block;
+}
+
+.site-header .top-navigation article ul li{
+    display: inline-block;
+    padding: 6px;
+}
+
+.site-header .top-navigation article ul li a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 0.7em ;
+    font-weight: bold;
+}
+
+.site-header .top-navigation article ul li a:hover{
+    color: orangered;
+    text-decoration: none;
+    font-size: 0.8em ;
+    font-weight: bold;
+}
+
+.site-header .top-navigation article ul li a.selected{
+    color: orangered;
+    text-decoration: none;
+    font-size: 0.8em ;
+    font-weight: bold;
+}
+
+.site-header .top-navigation article i{
+    height: 60px;
+    width: 45px;
+    float: left;
+    line-height: 45px;
+    font-size: 7em;
+    margin-left: 55px;
+    padding-top: 25px;
+}
+
+.site-header .top-navigation article h3{
+    font-size:1em ;
+    margin-left: 60px;
+}
+
+.site-header .top-navigation article h2{
+    font-size:2em ;
+    margin-left: 60px;
+}
+
+main{
+    display: block;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.7)),
+    url('images/steel-bg.jpg') no-repeat center;
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+    background-size: cover;
+    padding: 10px 0px;
+}
+
+main section.logo a{
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    background: #161616;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main section.logo a .fa-chevron-right{
+    color: orangered;
+}
+
+main section.logo a:hover,
+main section.logo a:hover .fa-chevron-right{
+    background: orangered;
+    color: black;
+}
+
+main section.service{
+    margin: 0px;
+    vertical-align: top;
+}
+
+main section.service .section-left{
+    display: inline-block;
+    width: 310px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+main section.service .section-middle{
+    display: inline-block;
+    width: 310px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+main section.service .section-right{
+    display: inline-block;
+    width: 310px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+main section.service h2{
+    font-size: 2em;
+    text-shadow: 0px 0px 2px orangered;
+}
+
+.others{
+    background: lightgrey;
+    /* display: inline-block; */
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    /* float: left; */
+}
+
+.others img{
+    display: block;
+    width: 70px;
+    height: 70px;
+    vertical-align: top;
+    text-align: center;
+    margin: 0px auto 10px;
+}
+
+.others a{
+    display: inline-block;
+    vertical-align: bottom;
+    color: darkblue;
+    font-size: 2em;
+    text-shadow: 0px 0px 2px orangered;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.others li{
+    padding: 1.5%;
+    margin: 0 0 20px 0;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.6em;
+}
+
+.partners ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: white;
+}
+
+.partners ul li{
+    margin: 0;
+    padding: 0;
+    float:left;
+    display: block;
+    width: 16%;
+    min-width: 150px;
+}
+
+.services ul{
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    /* background: white; */
+}
+
+.services ul li{
+    margin: 0;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.site-footer{
+    background: black;
+    text-align: center;
+}
+
+.site-footer section {
+    vertical-align: top;
+    color: white;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.site-footer .consulting p{
+    margin-left: 30px;
+}
+
+.site-footer .social-links a{
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+    margin: 5px;
+    width: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px;
+
+}
+
+.site-footer .extra-links .first-column{
+    margin-left: 30px;
+}
+
+.site-footer .extra-links div{
+    display: inline-block;
+    width: calc(50% - 40px);
+    vertical-align: top;
+}
+
+.site-footer .extra-links a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.site-footer .extra-links a:hover{
+    color: #ff8a00;
+}
+
+.copyright{
+    color: red;
+    display: block;
+}
+
+@media only screen and (max-width : 1600px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+
+}
+
+@media only screen and (max-width : 960px) {
+    .site-header .language{
+        display: block;
+        width: 95%;
+    }
+    .site-header article{
+        display: block;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .site-header .language{
+        display: block;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+    .site-header .language{
+        display: block;
+        width: 95%;
+    }
+    .partners ul{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    ul.others li{
+        width: 100%;
+    }
+    .partners ul li{
+        width:100%
+    }
+    .services ul li{
+        width:100%
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .site-header .language{
+        width: 50%;
+    }
+    .site-header article{
+        width: 100%;
+    }
+    main section.logo a{
+        width: 100%;
+    }
+}
+
